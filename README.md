@@ -9,10 +9,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 </p>
 
 <img src="https://public.tableau.com/static/images/Re/Revenue_analysis_17600317240890/Revenueanalysis2021-2022/1.png" 
-     width="120%" 
      alt="Revenue Analysis Dashboard Preview" style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
-
-
 </div>
 
 ---
