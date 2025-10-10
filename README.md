@@ -1,7 +1,7 @@
 <!-- Custom Styling -->
 <div align="center">
 
-<h1 style="color:#0077b6; font-size:2.5em;">💼 Ziyad Ashraf | Business Intelligence Portfolio</h1>
+<h1 style="color:#0077b6; font-size:2.5em;">💼 Ziaf Ashraf | Business Intelligence Portfolio</h1>
 
 <p style="font-size:1.1em; color:#333; max-width:800px;">
 Transforming data into decisions through <b>interactive dashboards</b>, <b>clear analytics</b>, 
@@ -9,8 +9,9 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 </p>
 
 <img src="https://public.tableau.com/static/images/Re/Revenue_analysis_17600317240890/Revenueanalysis2021-2022/1.png" 
-     alt="Revenue Analysis Dashboard Preview" 
-     style="border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,0.15); margin-top:25px; max-width:1200px;" />
+     width="120%" 
+     alt="Revenue Analysis Dashboard Preview" style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+
 
 </div>
 
