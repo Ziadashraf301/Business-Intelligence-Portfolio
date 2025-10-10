@@ -7,7 +7,8 @@
 Transforming data into decisions through <b>interactive dashboards</b>, <b>clear analytics</b>, 
 and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Excel.
 </p>
-</div
+</div>
+
 ---
 
 ## <span style="color:#0077b6;">📊 Featured Projects</span>
@@ -19,7 +20,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Identified key growth areas and revenue seasonality  
 - Designed a responsive HTML version for web embedding  
 
-💻 [**View Live Web Page**](https://ziadashraf301.github.io/BI_Portfolio-/Revenue_Analysis)
+💻 [**View Live Web Page**](https://ziadashraf301.github.io/BI_Portfolio/Revenue_Analysis)
 
 ---
 
