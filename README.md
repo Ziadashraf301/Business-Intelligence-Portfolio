@@ -1,7 +1,7 @@
 <!-- Custom Styling -->
 <div align="left">
 
-<h1 style="color:#0077b6; font-size:2.5em;">💼 Ziaf Ashraf | Business Intelligence Portfolio</h1>
+<h1 style="color:#0077b6; font-size:2.5em;">💼 Ziad Ashraf | Business Intelligence Portfolio</h1>
 
 <p style="font-size:1.1em; color:#333; max-width:800px;">
 Transforming data into decisions through <b>interactive dashboards</b>, <b>clear analytics</b>, 
@@ -20,18 +20,32 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Identified key growth areas and revenue seasonality  
 - Designed a responsive HTML version for web embedding  
 
-💻 [**View Live Web Page**](https://ziadashraf301.github.io/BI_Portfolio/Revenue_Analysis)
+<p align="center">
+<img src="https://public.tableau.com/static/images/Re/Revenue_analysis_17600317240890/Revenueanalysis2021-2022/1.png" 
+     width="85%" 
+     alt="Revenue Analysis Dashboard Preview" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+💻 [**View Live Web Page**](https://ziadashraf301.github.io/Business-Intelligence-Portfolio/Revenue_Analysis)
 
 ---
 
-### 2️⃣ **Sales Performance Tracker — Power BI**
-**Objective:** Visualize KPIs, revenue, and profit margins across sales categories and regions.  
+### 2️⃣ **Tag Analysis — Power BI**
+**Objective:** Explore tag performance, engagement, and upvote patterns to uncover insights about content popularity.  
 **Highlights:**
-- Real-time metrics with Power BI dynamic filters  
-- KPIs for revenue growth, profit, and customer segments  
-- Intuitive visuals for actionable insights  
+- Interactive Power BI dashboard with category-level filters  
+- Trend and correlation analysis across engagement metrics  
+- Designed for responsive web viewing  
 
-🧩 *Coming soon…*
+<p align="center">
+<img src="https://www.investintech.com/resources/blog/wp-content/uploads/2020/06/powerbi-dashboard-example.png" 
+     width="85%" 
+     alt="Tag Analysis Power BI Dashboard Preview" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+💻 [**View Live Web Page**](https://ziadashraf301.github.io/Business-Intelligence-Portfolio/tag_analysis)
 
 ---
 
@@ -50,7 +64,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 ## <span style="color:#0077b6;">🧭 About This Portfolio</span>
 
 This portfolio highlights my experience in **data storytelling**, **dashboard design**, and **business analysis**.  
-Each project tackles a real-world problem — from revenue analytics to KPI tracking — with a focus on **clarity and decision-making**.
+Each project tackles a real-world problem — from revenue analytics to engagement trends — with a focus on **clarity and decision-making**.
 
 > 🎯 My mission: combine technical accuracy with intuitive design to make insights instantly understandable.
 
@@ -61,12 +75,14 @@ Each project tackles a real-world problem — from revenue analytics to KPI trac
 Hi, I’m **Ziad Ashraf**, a **Data Analyst** passionate about designing BI solutions that bridge business strategy and data visualization.
 
 📍 Alexandria, Egypt  
-📧 [Email Me](ziadashraf98765@gmail.com)  
+📧 [ziadashraf98765@gmail.com](ziadashraf98765@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/ziadashraf301/)  
 
 ---
 
 <div align="center" style="margin-top:40px;">
-<p style="font-size:1.1em; color:#555;">✨ Designed with a focus on clarity, interactivity, and storytelling — by <b>Ziyad Ashraf</b>.</p>
+<p style="font-size:1.1em; color:#555;">
+✨ Designed with a focus on clarity, interactivity, and storytelling — by <b>Ziyad Ashraf</b>.
+</p>
 <img src="https://cdn-icons-png.flaticon.com/512/2721/2721287.png" width="60" alt="analytics icon" />
 </div>
