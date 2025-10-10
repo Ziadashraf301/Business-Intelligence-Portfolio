@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tag Analysis — Power BI Report</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2721/2721287.png" type="image/png" />
+
+  <style>
+    :root {
+      --accent: #0077b6;
+      --bg: #f5f6fa;
+      --card: #ffffff;
+      --muted: #666;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: var(--bg);
+      color: #222;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 28px;
+      background: var(--card);
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--accent);
+      font-size: 1.9rem;
+    }
+
+    p.lead {
+      color: var(--muted);
+      margin: 8px 0 18px;
+      line-height: 1.5;
+    }
+
+    /* Responsive iframe wrapper (keeps 47.5% aspect ratio) */
+    .embed-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 47.5%;
+      border-radius: 10px;
+      overflow: hidden;
+      background: linear-gradient(180deg, #fafafa, #f2f2f2);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06) inset;
+    }
+
+    .embed-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 14px;
+    }
+
+    .links {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      background: var(--accent);
+      color: white;
+      box-shadow: 0 6px 16px rgba(0, 119, 182, 0.18);
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 22px;
+      text-align: center;
+      color: #888;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 18px; margin: 20px; }
+      h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container" role="main">
+    <header>
+      <h1>📊 Tag Analysis (Power BI)</h1>
+      <p class="lead">
+        Interactive report analyzing tag performance, popularity, and engagement metrics across categories using Power BI.
+        The dashboard allows dynamic filtering and deep exploration of relationships between tags and user activity.
+      </p>
+    </header>
+
+    <!-- Power BI Embed -->
+    <div class="embed-wrapper" aria-label="Power BI report">
+      <iframe
+        title="tag_analysis"
+        src="https://app.powerbi.com/reportEmbed?reportId=8a947d1f-f4ba-4a91-99bf-44657c568090&autoAuth=true&ctid=e55b056e-e73a-4ecd-a575-3722829fe87c"
+        allowfullscreen="true"
+        sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+      ></iframe>
+    </div>
+
+    <div class="meta">
+      <div class="links">
+        <a class="btn" href="https://app.powerbi.com/reportEmbed?reportId=8a947d1f-f4ba-4a91-99bf-44657c568090&autoAuth=true&ctid=e55b056e-e73a-4ecd-a575-3722829fe87c" target="_blank" rel="noopener">
+          Open in Power BI
+        </a>
+        <a class="muted" href="#" title="Project files (optional)">Project Files</a>
+      </div>
+
+      <div class="muted">
+        Published: 2025 • Tools: Power BI • Author: Ziyad Ashraf
+      </div>
+    </div>
+
+    <section aria-label="Project details" style="margin-top:18px; color:var(--muted); line-height:1.6;">
+      <strong>About this project:</strong>
+      <p style="margin:6px 0 0;">
+        The <em>Tag Analysis</em> dashboard provides a comprehensive exploration of how tags correlate with
+        user engagement and upvote activity. It combines interactive visuals, trend analysis, and
+        categorical insights to identify high-performing tags and areas for optimization.
+      </p>
+    </section>
+
+    <footer>
+      ✨ Designed &amp; Built by <strong>Ziyad Ashraf</strong>
+    </footer>
+  </main>
+</body>
+</html>
