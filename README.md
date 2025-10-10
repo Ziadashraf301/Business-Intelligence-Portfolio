@@ -21,7 +21,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Designed a responsive HTML version for web embedding  
 
 <p align="center">
-<img src="https://github.com/Ziadashraf301/Business-Intelligence-Portfolio/blob/main/revenue_analysis.png" 
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/revenue_analysis.png" 
      width="85%" 
      alt="Revenue Analysis Dashboard Preview" 
      style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
@@ -39,7 +39,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Designed for responsive web viewing  
 
 <p align="center">
-<img src="https://github.com/Ziadashraf301/Business-Intelligence-Portfolio/blob/main/tag_anaylsis.png" 
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/tag_anaylsis.png" 
      width="85%" 
      alt="Tag Analysis Power BI Dashboard Preview" 
      style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
