@@ -92,7 +92,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 ### 5️⃣**Tag Analysis — Power BI**
 **Objective:** Explore tag performance, engagement, and upvote patterns to uncover insights about content popularity.  
 **Highlights:**
-- Interactive Power BI dashboard with category-level filters  
+- Interactive Power BI dashboard 
 - Trend and correlation analysis across engagement metrics  
 - Designed for responsive web viewing  
 
