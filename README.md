@@ -72,7 +72,14 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Five core KPIs: total quantities sold, revenue, orders, products, and customers  
 - Top 5 products by revenue with bar chart visualization  
 - Revenue trends over time (2015–2017) and market distribution via donut chart  
-- Interactive filters by product category and date range  
+- Interactive filters by product category and date range
+
+**Key Insights:**
+* Tracked **84K total orders quantity** generating **$24.9M** in revenue, covering **25.2K transactions**, **130 products**, and **17.4K customers**.
+* The **U.S.** and **Australia** markets contribute approximately **60%** of total revenue.
+* **Bike products** drive the **highest revenue and profitability**, measured in **millions**, while **Accessories** and **Clothing** categories perform modestly in **thousands**.
+* A **steady upward trend** in revenue is observed from **2016 onward** across all product categories and markets.
+* **June 2017** marks the **peak revenue month**, reaching approximately **$1.8M**.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/sales_analysis.png" 
