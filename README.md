@@ -123,6 +123,13 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Trend and correlation analysis across engagement metrics  
 - Designed for responsive web viewing  
 
+**Key Insights:**
+* Tags ‘c’ and ‘j’ dominate participation, each with approximately 103K posts, indicating they are the most popular or frequently discussed topics.
+* The ‘j’ tag leads in engagement quality, achieving the highest average upvotes (540+), followed by ‘p’ (407) and ‘h’ (384) — showing strong community interest and positive feedback.
+* Tags with higher post volumes (like ‘c’ and ‘j’) also tend to attract more views and upvotes, confirming a positive correlation between visibility and community interaction.
+* Tags with moderate post counts (such as ‘a’, ‘s’, and ‘x’) still maintain above-average upvotes, suggesting these tags generate high-value or niche discussions.
+* The scatter plots reveal a weak correlation between reputation and upvotes, implying that post content quality and topic relevance influence engagement more than user reputation.
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/tag_anaylsis.png" 
      width="85%" 
