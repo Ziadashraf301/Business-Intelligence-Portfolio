@@ -12,11 +12,17 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ### 1️⃣ **Airline Tweets Sentiment Analysis — Power BI**
 **Objective:** Analyze customer sentiment from airline tweets to identify pain points and service improvement opportunities.  
-**Highlights:**
+**Features:**
 - Sentiment breakdown across airlines and complaint categories  
 - Interactive filters for sentiment-based and airline-specific analysis  
-- Visualized negative sentiment trends to guide customer service strategies  
-
+- Visualized negative sentiment trends to guide customer service strategies
+  
+**Key Insights:**
+* **63%** of all tweets express **negative sentiment**, highlighting widespread customer dissatisfaction
+* Around **50% of issues** relate to **customer support** and **flight delays**, indicating key operational pain points
+* **Virgin America**, **Delta**, and **Southwest Airlines** lead in positive perception, with **51–64%** of reviews being **positive or neutral**
+* **US Airways** records the **highest negative sentiment**, with **77%** of its tweets classified as complaints
+* Customer engagement peaks between **10 AM and 2 PM**, representing the **highest traffic window** across all airlines
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/airline_tweets.png" 
      width="85%" 
@@ -37,10 +43,17 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ### 2️⃣ **Credit Card Performance Dashboard — Power BI**
 **Objective:** Monitor credit card operations, transaction patterns, and customer segmentation to optimize business strategy.  
-**Highlights:**
+**Features:**
 - KPIs tracking total revenue and transaction volume  
 - Customer demographics and spending behavior analysis  
-- Interactive filtering by card category, expenditure type, and time period  
+- Interactive filtering by card category, expenditure type, and time period
+   
+**Key Insights:**
+* The **average transaction amount** is **156K** across all customer groups, locations, and card types
+* A **data drop** in **Q2 2015** suggests incomplete reporting, while **2014** shows a steady **positive trend** in both transaction count and value
+* **Bills** and **Food** expenses dominate, representing **44%** of total transactions between **Q4 2013** and **Q2 2015**
+* **Mumbai** and **Bengaluru** contribute nearly **50%** of all transactions during the same period
+* **Female customers** spend **7% more** than males, with **27%** using **Silver cards** as their preferred type
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/credit_card_dashboard.png" 
@@ -55,7 +68,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ### 3️⃣ **Sales Performance Dashboard — Power BI**
 **Objective:** Track sales metrics across products, markets, and time periods to identify growth opportunities and top performers.  
-**Highlights:**
+**Features:**
 - Five core KPIs: total quantities sold, revenue, orders, products, and customers  
 - Top 5 products by revenue with bar chart visualization  
 - Revenue trends over time (2015–2017) and market distribution via donut chart  
@@ -73,7 +86,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 ---
 ### 4️⃣ **Revenue Analysis Dashboard — Tableau**
 **Objective:** Analyze company performance across 2021–2022 to uncover key revenue drivers and trends.  
-**Highlights:**
+**Features:**
 - Interactive Tableau dashboard with region & product insights  
 - Identified key growth areas and revenue seasonality  
 - Designed a responsive HTML version for web embedding  
@@ -91,7 +104,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ### 5️⃣**Tag Analysis — Power BI**
 **Objective:** Explore tag performance, engagement, and upvote patterns to uncover insights about content popularity.  
-**Highlights:**
+**Features:**
 - Interactive Power BI dashboard with category-level filters  
 - Trend and correlation analysis across engagement metrics  
 - Designed for responsive web viewing  
