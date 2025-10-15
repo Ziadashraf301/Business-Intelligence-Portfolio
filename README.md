@@ -1,5 +1,5 @@
 <div align="left">
-<h1 style="color:#0077b6; font-size:2.5em;">💼 Ziad Ashraf | Business Intelligence Portfolio</h1>
+<h1 style="color:#0077b6; font-size:2.5em;"> Ziad Ashraf </h1>
 <p style="font-size:1.1em; color:#333; max-width:800px;">
 Transforming data into decisions through <b>interactive dashboards</b>, <b>clear analytics</b>, 
 and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Excel.
