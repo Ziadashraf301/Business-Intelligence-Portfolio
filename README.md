@@ -98,6 +98,13 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 - Identified key growth areas and revenue seasonality  
 - Designed a responsive HTML version for web embedding  
 
+**Key Insights:**
+* Achieved **$231K in profit** with **$461K margin**, **$819K sales**, **$358K COGS**, **$229K expenses**, and **$132K marketing costs**.
+* **Central market states** contribute approximately **36%** of total profit, with **California** and **Illinois** being the **most profitable regions**.
+* The **Burrito** product leads profitability, outperforming the next best product by a **$50K margin**.
+* **Major markets** collectively account for **59%** of total profit.
+* A **slight upward trend** in **margin**, **profit**, and **expenses** is observed from **December 2020 to December 2022**.
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/revenue_analysis.png" 
      width="85%" 
