@@ -6,158 +6,164 @@
   <title>Real Estate Intelligence Dashboard</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
-    :root{
-      --bg:#f5f6fa;
-      --card:#ffffff;
-      --muted:#6b7280;
-      --accent:#0b7fa3;
+    :root {
+      --bg: #f5f6fa;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #0b7fa3;
       --glass: rgba(11,127,163,0.08);
-      --radius:14px;
+      --radius: 14px;
     }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family:'Poppins',sans-serif;
-      background:var(--bg);
-      color:#111827;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      padding:34px 20px;
-      display:flex;
-      justify-content:center;
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: #111827;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
 
-    .wrap{
-      width:100%;
-      max-width:1200px;
+    .wrap {
+      width: 100%;
+      margin: 0 auto;
+      padding: 40px 60px;
     }
 
-    .card{
-      background:var(--card);
-      border-radius:var(--radius);
-      box-shadow:0 10px 30px rgba(16,24,40,0.08);
-      padding:28px;
-      overflow:hidden;
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 30px rgba(16,24,40,0.08);
+      padding: 40px;
+      overflow: hidden;
+      width: 100%;
     }
 
-    header{
-      display:flex;
-      align-items:flex-start;
-      gap:18px;
-      margin-bottom:18px;
+    header {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
     }
 
-    .badge{
-      background:var(--glass);
-      color:var(--accent);
-      padding:10px 12px;
-      border-radius:10px;
-      font-weight:600;
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      font-size:0.95rem;
+    .badge {
+      background: var(--glass);
+      color: var(--accent);
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.95rem;
     }
 
-    h1{
-      margin:0;
-      font-size:1.35rem;
-      line-height:1.1;
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      line-height: 1.2;
     }
 
-    p.lead{
-      margin:8px 0 0 0;
-      color:var(--muted);
-      font-size:0.96rem;
+    p.lead {
+      margin: 8px 0 0 0;
+      color: var(--muted);
+      font-size: 1rem;
     }
 
-    .embed-wrap{
-      margin-top:18px;
-      border-radius:12px;
-      overflow:hidden;
-      background:linear-gradient(180deg, rgba(11,127,163,0.03), transparent 40%);
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+    .embed-wrap {
+      margin-top: 25px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(11,127,163,0.03), transparent 40%);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
-    .embed{
-      width:100%;
-      height:600px;
-      border:0;
-      display:block;
+    iframe {
+      width: 100%;
+      height: 80vh;
+      border: none;
+      display: block;
+      border-radius: 12px;
     }
 
-    /* Table */
-    .meta{
-      margin-top:22px;
-      display:block;
-      overflow-x:auto;
-      padding:6px;
-      border-radius:10px;
+    .meta {
+      margin-top: 28px;
+      overflow-x: auto;
+      padding: 6px;
+      border-radius: 10px;
     }
 
-    table{
-      width:100%;
-      border-collapse:collapse;
-      min-width:720px;
-      background:transparent;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: transparent;
     }
 
-    thead tr{
-      background:linear-gradient(90deg,#f8fafc,#ffffff);
-      color:#0f172a;
+    thead tr {
+      background: linear-gradient(90deg,#f8fafc,#ffffff);
+      color: #0f172a;
     }
 
-    th, td{
-      padding:12px 14px;
-      text-align:left;
-      border-bottom:1px solid rgba(15,23,42,0.06);
-      font-size:0.95rem;
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid rgba(15,23,42,0.06);
+      font-size: 0.95rem;
     }
 
-    th{
-      font-weight:600;
-      font-size:0.95rem;
-      letter-spacing:0.2px;
+    th {
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.2px;
     }
 
-    tbody tr:hover{
-      background:rgba(11,127,163,0.03);
+    tbody tr:hover {
+      background: rgba(11,127,163,0.03);
     }
 
-    .kpi{
-      display:inline-block;
-      font-weight:700;
-      color:#0b7fa3;
+    .kpi {
+      font-weight: 700;
+      color: #0b7fa3;
     }
 
-    .foot{
-      margin-top:16px;
-      color:var(--muted);
-      font-size:0.9rem;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:12px;
+    .foot {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
     }
 
-    .tag{
-      background:#eef2f3;
-      color:#0b7fa3;
-      padding:6px 10px;
-      border-radius:8px;
-      font-weight:600;
-      font-size:0.85rem;
+    .tag {
+      background: #eef2f3;
+      color: #0b7fa3;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.85rem;
     }
 
-    @media (max-width:820px){
-      .embed{ height:520px; }
-      table{ min-width:640px; }
+    footer {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
     }
 
-    @media (max-width:520px){
-      header{flex-direction:column; align-items:flex-start;}
-      .embed{ height:420px; }
-      th,td{ padding:10px; font-size:0.9rem; }
+    @media (max-width: 900px) {
+      .wrap { padding: 30px 20px; }
+      .card { padding: 24px; }
+      iframe { height: 70vh; }
+    }
+
+    @media (max-width: 600px) {
+      iframe { height: 60vh; }
+      th, td { padding: 10px; font-size: 0.9rem; }
+      h1 { font-size: 1.3rem; }
     }
   </style>
 </head>
@@ -172,58 +178,32 @@
         </div>
       </header>
 
-      <!-- Power BI Embed -->
-      <div class="embed-wrap" aria-hidden="false">
-        <iframe title="Exclusive Real Estate Opportunity" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYTdmNGRjOGMtYjUyOC00NmU0LTk2MjQtZTE2ZWY0MTg1ZGQ5IiwidCI6IjMxYTFkM2MxLWQ4N2YtNDY3Yy1iNzRmLTMxODJmNzgwZjgxOSJ9" frameborder="0" allowFullScreen="true"></iframe>
+      <div class="embed-wrap">
+        <iframe 
+          title="Exclusive Real Estate Opportunity"
+          src="https://app.powerbi.com/view?r=eyJrIjoiYTdmNGRjOGMtYjUyOC00NmU0LTk2MjQtZTE2ZWY0MTg1ZGQ5IiwidCI6IjMxYTFkM2MxLWQ4N2YtNDY3Yy1iNzRmLTMxODJmNzgwZjgxOSJ9"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
       </div>
-      <!-- Dashboard pages table -->
+
       <div class="meta" role="region" aria-label="Dashboard pages and features">
         <table>
           <thead>
             <tr>
-              <th style="width:48px">#</th>
-              <th style="width:220px">Page</th>
+              <th>#</th>
+              <th>Page</th>
               <th>Key Features</th>
-              <th style="width:200px">Use Case</th>
+              <th>Use Case</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td><strong>Executive Dashboard</strong> 🎯</td>
-              <td>6 KPIs, map view, time series, property analytics (top/bottom performers)</td>
-              <td>C-level overview — quick status & decisions</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td><strong>Market Analysis</strong> 📊</td>
-              <td>Multi-dimensional matrix, dynamic filters, price distribution & comps</td>
-              <td>Deep-dive analysis — valuations & market segmentation</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td><strong>Location Intelligence</strong> 🗺️</td>
-              <td>Detailed table, location distribution, heatmaps & catchment areas</td>
-              <td>Investment decisions — where to buy/expand</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td><strong>Data Quality</strong> 🔍</td>
-              <td>Completeness metrics, missing data analysis, validation checks</td>
-              <td>QA monitoring — keep dataset production-ready</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td><strong>Property Type Dive</strong> 🏘️</td>
-              <td>Bedroom trends, price elasticity, rental vs sale comparisons</td>
-              <td>Type-specific insights — strategy per property class</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td><strong>Time Series & Trends</strong> 📈</td>
-              <td>Monthly/weekly trends, MoM & YoY growth rates, seasonality charts</td>
-              <td>Temporal patterns — forecasting & trend detection</td>
-            </tr>
+            <tr><td>1</td><td><strong>Executive Dashboard</strong> 🎯</td><td>6 KPIs, map view, time series, property analytics (top/bottom performers)</td><td>C-level overview — quick status & decisions</td></tr>
+            <tr><td>2</td><td><strong>Market Analysis</strong> 📊</td><td>Multi-dimensional matrix, dynamic filters, price distribution & comps</td><td>Deep-dive analysis — valuations & market segmentation</td></tr>
+            <tr><td>3</td><td><strong>Location Intelligence</strong> 🗺️</td><td>Detailed table, location distribution, heatmaps & catchment areas</td><td>Investment decisions — where to buy/expand</td></tr>
+            <tr><td>4</td><td><strong>Data Quality</strong> 🔍</td><td>Completeness metrics, missing data analysis, validation checks</td><td>QA monitoring — keep dataset production-ready</td></tr>
+            <tr><td>5</td><td><strong>Property Type Dive</strong> 🏘️</td><td>Bedroom trends, price elasticity, rental vs sale comparisons</td><td>Type-specific insights — strategy per property class</td></tr>
+            <tr><td>6</td><td><strong>Time Series & Trends</strong> 📈</td><td>Monthly/weekly trends, MoM & YoY growth rates, seasonality charts</td><td>Temporal patterns — forecasting & trend detection</td></tr>
           </tbody>
         </table>
       </div>
@@ -233,8 +213,8 @@
         <div>📎 Report ID: <span class="kpi">a4cdd801-3c8a-49f6-a16f-f67ce4b6de9f</span></div>
       </div>
 
-      <footer style="margin-top:14px;color:var(--muted);font-size:0.9rem;">
-        Created by Ziad Ashraf — Real Estate Data & BI
+      <footer>
+        Created by <strong>Ziad Ashraf</strong> — Real Estate Data & BI
       </footer>
     </div>
   </div>
