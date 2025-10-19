@@ -1,5 +1,5 @@
 <div align="left">
-<h1 style="color:#0077b6; font-size:2.5em;"> Ziad Ashraf </h1>
+<h1 style="color:#0077b6; font-size:2.5em;">💼 Ziad Ashraf | Business Intelligence Portfolio</h1>
 <p style="font-size:1.1em; color:#333; max-width:800px;">
 Transforming data into decisions through <b>interactive dashboards</b>, <b>clear analytics</b>, 
 and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Excel.
@@ -10,7 +10,170 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ## <span style="color:#0077b6;">📊 Featured Projects</span>
 
-### 1️⃣ **Airline Tweets Sentiment Analysis — Power BI**
+---
+
+### 🏠 **Real Estate Intelligence Dashboard — Power BI**
+**Objective:** Deliver end-to-end real estate analytics with pricing insights, data quality monitoring, and geographic intelligence for investment decisions.  
+**Highlights:**
+- Six interactive pages (Executive, Market, Location, Quality, Type Dive, Time Series)
+- Live Power BI integration with dynamic filters
+- Interactive storytelling for property and price insights across Egypt
+
+💻 [**View Live Web Page**](https://ziadashraf301.github.io/Business-Intelligence-Portfolio/real_estate)
+
+---
+
+### 📑 6 Dashboard Pages
+
+| # | Page | Key Features | Use Case |
+|---|------|--------------|----------|
+| 1 | **Executive Dashboard** 🎯 | 6 KPIs, Map, Time Series, Property Analytics | C-level overview |
+| 2 | **Market Analysis** 📊 | Multi-dimensional matrix, Dynamic filters | Deep-dive analysis |
+| 3 | **Location Intelligence** 🗺️ | Table, Location distribution | Investment decisions |
+| 4 | **Data Quality** 🔍 | Completeness metrics, Missing data analysis | QA monitoring |
+| 5 | **Property Type Dive** 🏘️ | Bedroom trends, Price elasticity | Type-specific insights |
+| 6 | **Time Series & Trends** 📈 | Monthly trends, Growth rates (MoM/YoY) | Temporal patterns |
+
+---
+
+#### Page 1: Executive Dashboard 🎯
+<p align="center">
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/powerbi-executive.png" 
+     width="85%" 
+     alt="Executive Dashboard" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+**Key Insights:**
+- **Market Pricing Overview**: Average property price stands at **EGP 5.65M** with significant variance *(Range: EGP 1K–727.5M, Median: EGP 900K)*, showing a highly diverse market.  
+- **Price Efficiency**: Average price per square meter is **EGP 27,970**, a key valuation benchmark.  
+- **Premium Segments**: Lands and villas average **>EGP 17M**, representing niche luxury markets.  
+- **Market Dominance**: Apartments form **45% of listings** (avg price EGP 4M), the most accessible property type.  
+- **Geographic Premium**: Cairo is the most expensive city, reflecting its economic centrality.  
+
+---
+
+#### Page 2: Market Analysis 📊
+<p align="center">
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/powerbi-market.png" 
+     width="85%" 
+     alt="Market Dashboard" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+**Key Insights:**
+- **Rental vs. Sales Arbitrage Opportunity** (Alexandria, < EGP 1M apartments):
+  - **Rentals**: 596 properties, avg rent **EGP 21,410/mo**, avg area **172 sqm**  
+  - **Sales**: 100 properties, avg price **EGP 791,400**, avg area **97 sqm**  
+  - **Investment Insight**: Rental units offer **77% more space**, with rent ≈ **2.7% of purchase price**, signaling strong ROI potential.  
+- **Price Efficiency Gap**: Rental at **EGP 128/sqm** vs. sales at **EGP 8,394/sqm**, highlighting distinct market valuation behavior.  
+
+---
+
+#### Page 3: Location Intelligence 🗺️
+<p align="center">
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/powerbi-location.png" 
+     width="85%" 
+     alt="Location Dashboard" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+**Key Insights:**
+- **Market Share**: Cairo leads with **56% of listings (4,507)** vs. Alexandria’s **44% (3,494)**.  
+- **Alexandria Profile**:
+  - Rentals: 1,621 listings, avg area **165 sqm**, median rent **EGP 15K**, **EGP 193/sqm**  
+  - Sales: 1,873 listings, avg area **200 sqm**, median price **EGP 7.4M**, **EGP 52,851/sqm**  
+- **Cairo Profile**:
+  - Rentals: 2,370 listings, avg area **321 sqm**, median rent **EGP 65K**, **EGP 782/sqm**  
+  - Sales: 2,137 listings, avg area **232 sqm**, median price **EGP 6.25M**, **EGP 57,444/sqm**  
+- **Regional Dynamics**: Cairo properties are **larger (+61%)** and **4x higher rent**, showing its premium positioning.  
+
+---
+
+#### Page 4: Data Quality 🔍
+<p align="center">
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/powerbi-quality.png" 
+     width="85%" 
+     alt="Data Quality Dashboard" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+**Data Quality Metrics:**
+
+| Metric Category | Metric Name | Score | Status |
+|------------------|-------------|--------|--------|
+| **Data Completeness** | Complete Records | 86.6% | ✅ Excellent |
+| | Records with Coordinates | 91.4% | ✅ Excellent |
+| | Records with Description | 99.6% | ✅ Outstanding |
+| **Data Distribution** | Unique Locations | 2 cities | ✅ Focused |
+| | Unique Property Types | 19 types | ✅ Comprehensive |
+| **Field Coverage** | Area Populated | 99.3% | ✅ Outstanding |
+| | Bathrooms Populated | 79.4% | ⚠️ Good |
+| | Bedrooms Populated | 78.9% | ⚠️ Good |
+| | Price Populated | 87.2% | ✅ Excellent |
+| **Overall Statistics** | Total Properties | 9,260 | ✅ Strong Dataset |
+| **Price Metrics** | Average Price | EGP 5,644,888 | - |
+| | Average Price per SQM | EGP 27,926 | - |
+
+**Quality Assessment:**  
+Strong reliability (**92%+ completeness**) enabling high-confidence analytics. Minor improvements needed for bedroom/bathroom fields.
+
+---
+
+#### Page 5: Property Type Deep Dive 🏘️
+<p align="center">
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/powerbi-property.png" 
+     width="85%" 
+     alt="Property Dashboard" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+**Apartment Sales Analysis (تمليك - شقة):**
+
+| Configuration | Listings | Avg Area | Price/SQM | Avg Price | Price Range (P25–P75) | Market Position |
+|---------------|----------|-----------|-----------|-----------|----------------------|----------------|
+| **Studio** | 3 | 115 sqm | EGP 57,826 | EGP 6.65M | Stable | Premium compact |
+| **1 Bedroom** | 15 | 71 sqm | EGP 49,362 | EGP 3.20M | 2.98M–3.85M | Entry-level |
+| **2 Bedrooms** | 352 | 115 sqm | EGP 32,148 | EGP 3.89M | 990K–5.22M | Popular segment |
+| **3 Bedrooms** | 970 | 173 sqm | EGP 36,425 | EGP 6.43M | 4M–8M | Family homes |
+| **4+ Bedrooms** | 130 | 297 sqm | EGP 41,658 | EGP 12.78M | 6.5M–12.9M | Luxury estates |
+
+**Strategic Insights:**
+- **Sweet Spot**: 3-bedroom apartments dominate (970 listings, 65%).  
+- **Elasticity**: +50% area & +65% price increase from 2BR → 3BR.  
+- **Luxury Premium**: 4BR+ command **30% higher price/sqm**.  
+- **Investment Entry**: 1BR offers lowest entry barrier at **EGP 3.2M**.  
+
+---
+
+#### Page 6: Time Series & Trends 📈
+<p align="center">
+<img src="https://raw.githubusercontent.com/Ziadashraf301/Business-Intelligence-Portfolio/main/powerbi-scraper.png" 
+     width="85%" 
+     alt="Scraper Dashboard" 
+     style="border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1); margin-top:20px;" />
+</p>
+
+**October 2025 Scraping Trends:**
+
+| Date | Listing Type | Total Listings | Size Distribution (XL/L/M/S/C) | Avg Area | Avg Price | Price/SQM |
+|------|--------------|----------------|-------------------------------|----------|-----------|-----------|
+| **Thu, Oct 16** | Rentals (ايجار) | 1,931 | 406/522/460/410/133 | 245 sqm | EGP 157,604 | EGP 565 |
+| | Sales (تمليك) | 1,907 | 326/731/462/243/145 | 216 sqm | EGP 10.65M | EGP 52,959 |
+| **Fri, Oct 17** | Rentals | 1,582 | 359/439/402/314/68 | 272 sqm | EGP 183,555 | EGP 505 |
+| | Sales | 1,467 | 160/636/515/117/39 | 186 sqm | EGP 10.31M | EGP 57,831 |
+| **Sat, Oct 18** | Rentals | 478 | 110/139/128/81/20 | 261 sqm | EGP 132,630 | EGP 578 |
+| | Sales | 636 | 128/229/174/56/49 | 290 sqm | EGP 11.75M | EGP 56,475 |
+
+**Temporal Patterns:**
+- **Weekend Effect**: 56% fewer listings but +14% higher avg prices.  
+- **Size Shift**: Weekend sales listings **34% larger (290 sqm)**.  
+- **Activity Drop**: Thursday 3,838 → Saturday 1,114 listings.  
+- **Price Stability**: EGP 52K–58K range — consistent valuation.  
+
+---
+
+### 2️⃣ **Airline Tweets Sentiment Analysis — Power BI**
 **Objective:** Analyze customer sentiment from airline tweets to identify pain points and service improvement opportunities.  
 **Features:**
 - Sentiment breakdown across airlines and complaint categories  
@@ -41,7 +204,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ---
 
-### 2️⃣ **Credit Card Performance Dashboard — Power BI**
+### 3️⃣ **Credit Card Performance Dashboard — Power BI**
 **Objective:** Monitor credit card operations, transaction patterns, and customer segmentation to optimize business strategy.  
 **Features:**
 - KPIs tracking total revenue and transaction volume  
@@ -66,7 +229,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ---
 
-### 3️⃣ **Sales Performance Dashboard — Power BI**
+### 4️⃣ **Sales Performance Dashboard — Power BI**
 **Objective:** Track sales metrics across products, markets, and time periods to identify growth opportunities and top performers.  
 **Features:**
 - Five core KPIs: total quantities sold, revenue, orders, products, and customers  
@@ -91,7 +254,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 💻 [**View Live Web Page**](https://ziadashraf301.github.io/Business-Intelligence-Portfolio/Sales_analysis)
 
 ---
-### 4️⃣ **Revenue Analysis Dashboard — Tableau**
+### 5️⃣ **Revenue Analysis Dashboard — Tableau**
 **Objective:** Analyze company performance across 2021–2022 to uncover key revenue drivers and trends.  
 **Features:**
 - Interactive Tableau dashboard with region & product insights  
@@ -116,7 +279,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ---
 
-### 5️⃣**Tag Analysis — Power BI**
+### 6️⃣**Tag Analysis — Power BI**
 **Objective:** Explore tag performance, engagement, and upvote patterns to uncover insights about content popularity.  
 **Features:**
 - Interactive Power BI dashboard with category-level filters  
