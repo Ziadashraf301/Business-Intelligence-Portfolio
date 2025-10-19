@@ -12,7 +12,7 @@ and <b>beautiful data storytelling</b> — built with Tableau, Power BI, and Exc
 
 ---
 
-### 🏠 **Real Estate Intelligence Dashboard — Power BI**
+### 1️⃣ **Real Estate Intelligence Dashboard — Power BI**
 **Objective:** Deliver end-to-end real estate analytics with pricing insights, data quality monitoring, and geographic intelligence for investment decisions.  
 **Highlights:**
 - Six interactive pages (Executive, Market, Location, Quality, Type Dive, Time Series)
